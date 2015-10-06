@@ -1,0 +1,10 @@
+{
+  "name": "angularunittesting",
+  "version": "0.0.1",
+  "devDependencies": {
+    "angular-mocks": "^1.4.5"
+  },
+  "dependencies": {
+    "angular": "^1.4.5"
+  }
+}
