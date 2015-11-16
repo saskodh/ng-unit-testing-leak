@@ -24,6 +24,8 @@
 
       // NOTE: prevents DOM elements leak
       suite.element.remove();
+    });
+    afterAll(function () {
 
       // NOTE: prevents memory leaks because of JavaScript closures created for the jasmine syntax
       // (beforeEach, afterEach, beforeAll, afterAll, it..).
