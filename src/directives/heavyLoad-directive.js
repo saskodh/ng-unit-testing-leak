@@ -23,6 +23,11 @@ angular.module('app')
 
         // add data to the element
         element.data(heavyLoad.getHeavyList());
+
+        // NOTE: proper cleanup when the directive is removed from the DOM and it's scope is destroyed.
+        scope.$on('$destroy', function () {
+          element.data(null);
+        });
       }
     };
   });
