@@ -3,17 +3,26 @@
   "version": "0.0.1",
   "description": "Demo of Angular unit testing memory leaks",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start"
+    "test": "karma start"
   },
-  "keywords": [ "AngularJs", "Karma", "Jasmine", "Memory leaks" ],
-  "author": "Sashe Klechkovski",
+  "keywords": [
+    "AngularJs",
+    "Karma",
+    "Jasmine",
+    "Memory leaks"
+  ],
+  "author": "Sashe Klechkovski <sasko_dh@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jasmine-core": "^2.3.4",
-    "karma": "^0.13.10",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-jasmine": "^0.3.6",
-    "karma-phantomjs-launcher": "^0.2.1",
-    "phantomjs": "^1.9.18"
+    "jasmine-core": "~2.8.0",
+    "karma": "~1.7.1",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-jasmine": "~1.1.0",
+    "karma-phantomjs-launcher": "~1.0.4",
+    "phantomjs": "~2.1.7"
+  },
+  "dependencies": {
+    "angular": "~1.6.6",
+    "angular-mocks": "~1.6.6"
   }
 }
