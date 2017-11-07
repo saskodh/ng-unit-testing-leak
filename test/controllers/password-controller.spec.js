@@ -4,7 +4,7 @@
  * Example test taken from AngularJs unit testing guide.
  * */
 describe('PasswordController', function() {
-  beforeEach(module('app'));
+  beforeEach(angular.mock.module('app'));
 
   var $controller;
 

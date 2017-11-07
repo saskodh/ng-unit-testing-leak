@@ -4,7 +4,7 @@ describe('heavyLoad service', function () {
 
   var heavyLoad;
 
-  beforeEach(module('app'));
+  beforeEach(angular.mock.module('app'));
 
   beforeEach(inject(function (_heavyLoad_) {
     heavyLoad = _heavyLoad_;

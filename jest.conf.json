@@ -1,0 +1,7 @@
+{
+  "roots": ["src", "test"],
+  "testRegex": ".*\\.spec\\.js$",
+  "moduleFileExtensions": ["js"],
+  "testEnvironment": "jsdom",
+  "setupTestFrameworkScriptFile": "./test/jest.init.js"
+}

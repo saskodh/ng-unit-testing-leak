@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app', [])
+angular.module('app')
 
   /**
    * Example controller taken from AngularJs unit testing guide.

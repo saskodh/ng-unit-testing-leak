@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Demo of Angular unit testing memory leaks",
   "scripts": {
-    "test": "karma start"
+    "test:karma": "karma start",
+    "test:jest": "jest --config jest.conf.json"
   },
   "keywords": [
     "AngularJs",
@@ -15,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "jasmine-core": "~2.8.0",
+    "jest": "~21.2.1",
     "karma": "~1.7.1",
     "karma-chrome-launcher": "~2.2.0",
     "karma-jasmine": "~1.1.0",

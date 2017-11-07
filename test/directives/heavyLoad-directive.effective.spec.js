@@ -6,7 +6,7 @@
 
     var suite = {};
 
-    beforeEach(module('app'));
+    beforeEach(angular.mock.module('app'));
 
     beforeEach(inject(function ($rootScope, $compile, heavyLoad) {
       suite.$rootScope = $rootScope;
@@ -59,3 +59,7 @@
   }
 
 })();
+
+it('should be always green', function () {
+  expect(true).toBe(true);
+});
